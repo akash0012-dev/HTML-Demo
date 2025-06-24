@@ -91,3 +91,11 @@
   color: var(--tertiary-color);
   cursor: pointer;
 }
+.image-container {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    justify-content:first baseline;
+    align-items: center;
+    margin: 20px;
+}
